@@ -36,6 +36,8 @@ function renderTodo(todo) {
 
     const button = document.createElement('button');
     button.innerText = 'Remove';
+    button.style.backgroundColor = 'lavender';
+    button.style.width = '110px';
 
     todoEl.append(button);
 
